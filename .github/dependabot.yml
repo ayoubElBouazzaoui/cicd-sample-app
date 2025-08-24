@@ -1,0 +1,13 @@
+version: 2
+updates:
+  # 1. Houd GitHub Actions up-to-date
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+
+  # 2. Houd npm/yarn dependencies up-to-date
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
